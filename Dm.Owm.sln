@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dm.Owm.Web.API", "Web\API\Dm.Owm.Web.API.csproj", "{59F1EA26-4DCF-499C-979B-79C18BB466A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{2951DC97-F52F-4D30-81D4-A8EEB4878426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9827E2B8-88EA-437A-9156-41BA423BF2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F1EA26-4DCF-499C-979B-79C18BB466A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F1EA26-4DCF-499C-979B-79C18BB466A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F1EA26-4DCF-499C-979B-79C18BB466A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F1EA26-4DCF-499C-979B-79C18BB466A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59F1EA26-4DCF-499C-979B-79C18BB466A7} = {9827E2B8-88EA-437A-9156-41BA423BF2DD}
+		{9827E2B8-88EA-437A-9156-41BA423BF2DD} = {2951DC97-F52F-4D30-81D4-A8EEB4878426}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9B570B4-6F83-42D1-AACB-B831619EF621}
+	EndGlobalSection
+EndGlobal
